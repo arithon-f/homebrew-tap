@@ -1,9 +1,9 @@
 cask "firmware-toolkit" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.0.3"
-  sha256 arm:   "1b9723d6d0fc727175ea9c62b13d16881ef572f61666919bc6bd83a4bc9b38cc",
-         intel: "c4e7ba0f9bfe0bb98a0d3433e0df4e2a8fcaf667f36a7343c8eacd0bc7fca5c5"
+  version "1.1.0"
+  sha256 arm:   "eecacb96d2dd1eb789773171333dac4803670cb0726659d4045e24dd5ca0a9a3",
+         intel: "4f3ccbc682ec6225dda1ede052d94e475000825581eac594792e64bb4963296c"
 
   url "https://github.com/carlosbrownef-source/8bitdo-ultimate-2c-toolkit/releases/download/v#{version}/firmware-toolkit-#{version}-macos-#{arch}.zip"
   name "Firmware Toolkit"
