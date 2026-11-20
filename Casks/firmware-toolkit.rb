@@ -1,9 +1,9 @@
 cask "firmware-toolkit" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.1.1"
-  sha256 arm:   "9f4d8d94cbdebe7e6f69ca29c1b847663b2e68bd38da6739283a7c038e0bb4e2",
-         intel: "61567f7b7fa9721db3fa7bbd771f3156f4797e31c98ed05b487e90c75485d30a"
+  version "1.2.0"
+  sha256 arm:   "5aa973fdb3423c72dd11be6e8bba43d55a70ce51e6936c90dddf8e6ad2b4227b",
+         intel: "d432a77709e755adcda52ccde121e139e7bf035f5b194f6fabc426d3c2ec2b9c"
 
   url "https://github.com/arithon-f/8bitdo-ultimate-2c-toolkit/releases/download/v#{version}/firmware-toolkit-#{version}-macos-#{arch}.zip"
   name "Firmware Toolkit"
